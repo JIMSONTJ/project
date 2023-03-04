@@ -6,9 +6,9 @@ const Ftx10 = ()=>{
     const [move,setMove] = React.useState(false);
     return(
 
-        <div className="flex mt-32 ml-36">
+        <div className="flex mt-32 ">
 
-            <motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}} className="w-[369px] h-[459px] p-10">
+            <motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}} className="w-[369px] h-[459px] ml-8">
                 <Image
                 src="/cir.png"
                 alt=""
@@ -20,9 +20,9 @@ const Ftx10 = ()=>{
             </motion.div>
             
             
-            <motion.div whileInView={{x:  move ? 5 : -100}} transition={{delay:0.7}} className="text-[#ffff] ml-48 mt-3">
-            <div className="w-[594px] h-[32px] font-sans text-xl"><b>Sugar & spice with space for something nice</b></div>
-            <div className="w-[594px] h-[448px] font-sans mt-4 text-xl">
+            <motion.div whileInView={{x:  move ? 5 : -100}} transition={{delay:0.7}} className="text-[#ffff] ml-80 mt-3">
+            <div className="w-[594px] h-[32px] font-sans text-2xl"><b>Sugar & spice with space for something nice</b></div>
+            <div className="w-[594px] h-[448px] font-sans mt-4 text-2xl font-normal">
             <div>Amid this storm, some good news made its way<br/> in with decreasing interest rates in the US 
                 after <br/>continuous weeks of rising. This further led to <br/>Inflation fears coming down. </div>
 

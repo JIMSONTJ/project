@@ -20,7 +20,7 @@ const tar=9;
         
         <div>
         
-       <div className="   text-[#fcbec6] w-[536px] h-[40px] text-3xl font-serif font-normal ml-24"> Inflation touched an all-time high!</div>
+       <div className="   text-[#fcbec6] w-[536px] h-[40px] text-3xl  font-normal ml-24"> Inflation touched an all-time high!</div>
        <div className=" text-[#ffffff] mt-2 font-normal text-[18px] w-[594px] h-[48px] ml-24">Inflation touched an all-time high in countries like the U.K.<br/> and the U.S. (ATH).</div>
       
 

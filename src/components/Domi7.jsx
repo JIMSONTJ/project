@@ -7,7 +7,7 @@ const Domi7 = ()=>{
 
 <div>
 
-<motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}}  className="w-[895px] h-[208px] text-[#fcbec6] text-8xl mt-32 ml-32 font-serif">Vitalik’s baby came<br/> before his boner.
+<motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}}  className="c h-[208px] text-[#fcbec6]  mt-32 font-normal ">Vitalik’s baby came<br/> before his boner.
 </motion.div>
 
 

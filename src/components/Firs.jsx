@@ -67,7 +67,7 @@ const Firs = () =>{
             height="250"
             /></div>
             <div className="-mt-52 overflow-hidden">
-            <Image className="rounded-xl hover:scale-150 duration-300" 
+            <Image className="rounded-xl hover:scale-110 duration-300" 
             src="/media/ki.png"
             alt=""
             width="400"

@@ -6,10 +6,10 @@ const Domi = ()=> {
     const [move,setMove] = React.useState(false);
 return(
     <div className="flex mt-20">
-<motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}}   className="text-[#ffff] ml-10">
-<div className="text-[#fcbec6] ml-4 ">Chapter 3</div>
-<div className="text-xl w-[365px] h-[56px] ml-4"> The Domino Starts</div>
-<div className="w-[768px] h-[336px]">
+<motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}}   className="text-[#ffff] ">
+<div className="text-[#fcbec6] text-xl font-normal">Chapter 3</div>
+<div className="fou  w-[365px] h-[56px] font-normal mt-5 "> The Domino Starts</div>
+<div className="w-[768px] h-[336px] text-xl font-normal mt-5">
 <div> 3AC and Celsius collapsing and declaring Bankruptcy; 
     it became harder<br/> than ever to tell your crypto-oblivious friend why this was the place to be.</div>
 
@@ -24,7 +24,7 @@ followed by Liz Truss to quit 45 days after, and the overall<br/>
  </div>
 </motion.div>
 
-<motion.div  whileInView={{x:  move ? 5 : -100}} transition={{delay:0.7}}  className="w-[287px] h-[347px] mt-10 p-4 ml-10">
+<motion.div  whileInView={{x:  move ? 5 : -100}} transition={{delay:0.7}}  className="w-[287px] h-[347px] mt-28 p-2 ml-72">
 <Image
 src="/squ.png"
 alt=""

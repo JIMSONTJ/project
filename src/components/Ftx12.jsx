@@ -6,8 +6,8 @@ const Ftx12 = ()=>{
     const [move,setMove] = React.useState(false);
     return(
         
-        <div className="flex ml-36 mt-32">
-            <motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}} className="text-[#ffff] font-sans w-[680px] h-[408px]   p-10">
+        <div className="flex  mt-32">
+            <motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}} className="text-[#ffff] font-sans w-[680px] h-[408px] text-xl ml-10 font-normal">
 
 <div>So after this guy said his peace, Polygon co-founder Sandeep <br/>
 Nailwal chose violence with comebacks more hurtful than those<br/>
@@ -28,7 +28,7 @@ with<br/> the news of how even the dark horse of NFTs moved to Polygon <br/>rece
 
 </motion.div>
 
-<motion.div whileInView={{x:  move ? 5 : -100}} transition={{delay:0.7}} className="w-[371px] h-[440px] p-4 ml-16">
+<motion.div whileInView={{x:  move ? 5 : -100}} transition={{delay:0.7}} className="w-[371px] h-[440px] p-4 ml-52">
 <Image
 src="/mout.png"
 alt=""

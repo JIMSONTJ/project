@@ -28,5 +28,39 @@ body{
   background-color: white;
   
 }
-
-
+.siz{
+  font-size: 40px;
+  line-height: 48px;
+}
+.si{
+  font-size: 24px;
+  line-height: 28px;
+}
+.ch{
+  font-size:85px;
+  line-height: 120px;
+}
+.by{
+  font-size: 48px;
+  line-height: 56px;
+}
+.c{
+  font-size: 96px;
+  line-height: 104px;
+}
+.ft{
+  font-size: 32px;
+  line-height: 56px;
+}
+.nt{
+  font-size: 96px;
+  line-height: 56px;
+}
+.th{
+  font-size: 36px;
+  line-height: 44px;
+}
+.fou{
+  font-size: 40px;
+  line-height: 56px;
+}

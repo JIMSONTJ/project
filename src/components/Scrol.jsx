@@ -55,7 +55,7 @@ style={{width:`${scrollTop}%`}}></div>
    
    <div className="absolute ml-52 mt-[5px] " >
     <Link href={'#e'}>
-<div className="w-10 h-10 ml-60 rounded-full flex justify-center items-center border   text-[#ffff] fixed mt-[500px] backdrop-blur-[500px] font-bold z-40">3</div>
+<div className="w-10 h-10 ml-52 rounded-full flex justify-center items-center border   text-[#ffff] fixed mt-[500px] backdrop-blur-[500px] font-bold z-40">3</div>
   
  </Link>
    </div>

@@ -6,10 +6,10 @@ const Ftx3 = ()=>{
     const [move,setMove] = React.useState(false);
     return(
 
-<div className="ml-44 mt-4">
+<div className="ml-10 mt-36">
     <motion.div whileInView={{x: move ? -5:100}} transition={{delay:0.7}}  className="ml-7">
-    <div className="text-[#fcbec6] text-3xl w-[674px] h-[56px]">The Desk where the CEX tape was streamed</div>
-    <div className="text-[#ffff]  w-[614px] h-[64px] font-sans">We know you know; we know that you know the FTX collapse <br/>
+    <div className="ft text-[#fcbec6]   h-[56px] font-normal">The Desk where the CEX tape was streamed</div>
+    <div className="text-[#ffff]   h-[64px] text-2xl font-normal mt-5">We know you know; we know that you know the FTX collapse <br/>
         story, given none of us are cavemen yet.</div>
         </motion.div>
         
